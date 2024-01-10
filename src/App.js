@@ -57,6 +57,8 @@ class App extends Component {
 
     this.setState(prevState => ({
       contactsList: [...prevState.contactsList, newContact],
+      name: "",
+      mobileNo: "",
     }))
   }
 
